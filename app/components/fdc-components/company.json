@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_fdc_components_companies",
+  "info": {
+    "name": "Company",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "richtext"
+    },
+    "LinkUrl": {
+      "type": "string"
+    },
+    "CompanyList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.list-item"
+    },
+    "LinkText": {
+      "type": "string"
+    }
+  }
+}

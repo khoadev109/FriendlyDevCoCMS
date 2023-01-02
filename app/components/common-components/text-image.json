@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_common_components_text_images",
+  "info": {
+    "name": "Text Image",
+    "icon": "align-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "isRevert": {
+      "type": "boolean",
+      "default": false
+    },
+    "backgroundColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "blueberry",
+        "forest",
+        "macadamia",
+        "cloud",
+        "bubblegum"
+      ],
+      "default": "white"
+    },
+    "textColor": {
+      "type": "enumeration",
+      "enum": [
+        "white",
+        "dark"
+      ],
+      "default": "white"
+    }
+  }
+}

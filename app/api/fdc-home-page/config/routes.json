@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fdc-home-page",
+      "handler": "fdc-home-page.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fdc-home-page",
+      "handler": "fdc-home-page.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fdc-home-page",
+      "handler": "fdc-home-page.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

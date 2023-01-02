@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_nav_group_nav_groups",
+  "info": {
+    "name": "NavGroup",
+    "icon": "allergies",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "NavItemBottom": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-item.nav-item"
+    },
+    "NavServiceItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-item.nav-item"
+    },
+    "NavCompanyItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-item.nav-item"
+    }
+  }
+}

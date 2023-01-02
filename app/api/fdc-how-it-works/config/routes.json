@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fdc-how-it-works",
+      "handler": "fdc-how-it-works.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fdc-how-it-works",
+      "handler": "fdc-how-it-works.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fdc-how-it-works",
+      "handler": "fdc-how-it-works.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

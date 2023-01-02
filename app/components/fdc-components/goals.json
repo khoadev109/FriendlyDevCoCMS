@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_fdc_components_goals",
+  "info": {
+    "name": "Goals",
+    "icon": "database",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.list-item"
+    },
+    "Content": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-info"
+    }
+  }
+}

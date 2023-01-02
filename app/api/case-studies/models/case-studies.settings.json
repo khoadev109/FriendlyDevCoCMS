@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "case_studies",
+  "info": {
+    "name": "CaseStudies",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "handle": {
+      "type": "string"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.meta-tags"
+    }
+  }
+}

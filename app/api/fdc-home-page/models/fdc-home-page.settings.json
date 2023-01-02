@@ -1,0 +1,66 @@
+{
+  "kind": "singleType",
+  "collectionName": "fdc_home_pages",
+  "info": {
+    "name": "FDC Home Page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-info"
+    },
+    "OurMessage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-info"
+    },
+    "HowItWorks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.how-it-works"
+    },
+    "AboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.about-us"
+    },
+    "Company": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.company"
+    },
+    "Quote": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.quote"
+    },
+    "RecruitmentProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.recruitment-process"
+    },
+    "FAQs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.fa-qs"
+    },
+    "Checklist": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.checklist"
+    },
+    "Goals": {
+      "type": "component",
+      "repeatable": false,
+      "component": "fdc-components.goals"
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_common_components_meta_tags",
+  "info": {
+    "name": "MetaTags",
+    "icon": "adjust",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "ldJson": {
+      "type": "json"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    }
+  }
+}

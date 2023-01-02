@@ -1,0 +1,15 @@
+{
+  "kind": "singleType",
+  "collectionName": "fdc_page_banners",
+  "info": {
+    "name": "FDC PageBanner",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {}
+}

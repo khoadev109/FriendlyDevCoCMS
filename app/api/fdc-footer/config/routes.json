@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/fdc-footer",
+      "handler": "fdc-footer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/fdc-footer",
+      "handler": "fdc-footer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/fdc-footer",
+      "handler": "fdc-footer.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

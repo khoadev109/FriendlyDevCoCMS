@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_home_page_messages",
+  "info": {
+    "name": "Message",
+    "icon": "pager"
+  },
+  "options": {},
+  "attributes": {
+    "message": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_fdc_components_recruitment_processes",
+  "info": {
+    "name": "RecruitmentProcess",
+    "icon": "calendar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Message": {
+      "type": "text"
+    },
+    "Steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.content-items"
+    },
+    "LinkUrl": {
+      "type": "string"
+    },
+    "LinkText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "fdc_footers",
+  "info": {
+    "name": "FDC Footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NavGroup": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-group.nav-group"
+    },
+    "Contact": {
+      "type": "richtext"
+    },
+    "InstagramUrl": {
+      "type": "string"
+    },
+    "FacebookUrl": {
+      "type": "string"
+    },
+    "LinkedInUrl": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "richtext"
+    }
+  }
+}

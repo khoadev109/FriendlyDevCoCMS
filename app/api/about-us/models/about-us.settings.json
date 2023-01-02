@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_uses",
+  "info": {
+    "name": "About Us",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-banner"
+    },
+    "ourApproach": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.text-image"
+    },
+    "pageContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-content"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.meta-tags"
+    }
+  }
+}

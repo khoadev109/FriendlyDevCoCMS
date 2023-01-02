@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_fdc_components_aboutuses",
+  "info": {
+    "name": "AboutUs",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "StaffList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.content-items"
+    }
+  }
+}

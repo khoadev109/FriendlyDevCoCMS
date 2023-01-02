@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_how_it_work_how_it_works",
+  "info": {
+    "name": "How-It-Work",
+    "icon": "air-freshener",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "recruitmentProcess": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.text-image"
+    },
+    "findingPerfectFit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.text-image"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.meta-tags"
+    }
+  }
+}

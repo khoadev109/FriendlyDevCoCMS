@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_services",
+  "info": {
+    "name": "Our Services",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pageBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-banner"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.meta-tags"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "pageContent": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-content"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_fdc_components_fa_qs",
+  "info": {
+    "name": "FAQs",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "List": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.content-items"
+    },
+    "LinkUrl": {
+      "type": "string"
+    },
+    "LinkText": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "fdc_header_navigations",
+  "info": {
+    "name": "FDC Header Navigation"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "NavItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nav-item.nav-item"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_fdc_components_how_it_works",
+  "info": {
+    "name": "How it works",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "OffshoringTitle": {
+      "type": "string"
+    },
+    "OffshoringList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.content-items"
+    },
+    "FriendlyDevTitle": {
+      "type": "string"
+    },
+    "FriendlyDevList": {
+      "type": "component",
+      "repeatable": true,
+      "component": "common-components.content-items"
+    }
+  }
+}

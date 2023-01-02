@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_fdc_components_quotes",
+  "info": {
+    "name": "Quote",
+    "icon": "clipboard-list",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "RoleImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "Message": {
+      "type": "text"
+    },
+    "Role": {
+      "type": "string"
+    },
+    "BackgroundColor": {
+      "type": "string"
+    },
+    "BackgroundImage": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

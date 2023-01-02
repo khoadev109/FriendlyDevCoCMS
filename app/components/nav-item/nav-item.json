@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_nav_item_nav_items",
+  "info": {
+    "name": "Nav Item",
+    "icon": "anchor"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Url": {
+      "type": "string"
+    },
+    "IsHighlighted": {
+      "type": "boolean"
+    }
+  }
+}

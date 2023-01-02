@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_common_components_navigation_items",
+  "info": {
+    "name": "navigationItem",
+    "icon": "align-center"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

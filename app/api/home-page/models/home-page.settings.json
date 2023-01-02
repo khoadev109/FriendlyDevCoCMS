@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "name": "Home page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "partners": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.partners"
+    },
+    "metaTags": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.meta-tags"
+    },
+    "pageBanner": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.page-banner"
+    },
+    "howItWorks": {
+      "type": "component",
+      "repeatable": false,
+      "component": "common-components.text-image"
+    },
+    "recruitmentProcesses": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.recruitment-process"
+    },
+    "aboutUs": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.about-us"
+    },
+    "ourMessage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "home-page.message"
+    }
+  }
+}
