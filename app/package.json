@@ -2,14 +2,12 @@
   "name": "app",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "FriendlyDevCo Strapi application",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
     "build:prod": "cross-env NODE_ENV=production strapi build",
-    "start:win": "cross-env NODE_ENV=production npm start",
-    "build:win": "cross-env NODE_ENV=production npm run build",
     "strapi": "strapi"
   },
   "devDependencies": {},

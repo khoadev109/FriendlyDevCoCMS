@@ -4,5 +4,5 @@ module.exports = ({ env }) => ({
         enabled: true,
         models: ['home-page'],
       }
-    }
+    },
 });
