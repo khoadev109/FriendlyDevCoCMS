@@ -7,6 +7,7 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
+    "start:prod": "cross-env NODE_ENV=production strapi start",
     "build:prod": "cross-env NODE_ENV=production strapi build",
     "strapi": "strapi"
   },
