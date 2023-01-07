@@ -1,12 +1,12 @@
 module.exports = {
   apps: [
     {
-      name: 'strapi friendlydevco',
+      name: 'friendlydevcocms',
       cwd: '/home/ubuntu/FriendlyDevCoCMS/app',
       script: 'npm',
       args: 'start',
       env: {
-        NODE_ENV: 'production'
+        NODE_ENV: 'development'
       },
     },
   ]
